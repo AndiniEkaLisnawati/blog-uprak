@@ -10,7 +10,7 @@ export default function LandingPageBlog() {
   useEffect(() =>{
     fetch("https://jsonplaceholder.typicode.com/posts")
     .then((res) => res.json())
-    .then((data) => setPosts(data.slice(0, 6)))
+    .then((data) => setPosts(data))
     .catch((err) => console.error(err));
   }, []);
 
