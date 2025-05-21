@@ -173,9 +173,7 @@ export default function Header({
           <button
             onClick={() => setIsDark(!isDark)}
             aria-label="Toggle Dark Mode"
-            className="md:hidden p-1 rounded px-4 py-1 pl-50
-            bg-teal-600
-            dark:bg-teal-900 font-semibold text-white"
+            className="md:hidden p-1 rounded px-4 py-1 pl-50 font-semibold text-white"
           >
             {isDark ? (
               <MdOutlineLightMode size={20} />
