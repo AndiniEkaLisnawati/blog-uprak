@@ -83,7 +83,7 @@ export default function Header({
                 <span className="font-semibold">Home</span>
               </a>
               <a
-                href="#kelas"
+                href="#Kelas"
                 className="p-1 gap-1 rounded px-4 py-1 
   bg-teal-600 hover:bg-teal-900 
   dark:bg-teal-900 dark:hover:bg-teal-600
@@ -95,7 +95,7 @@ export default function Header({
                 <span className="font-semibold">Kelas</span>
               </a>
               <a
-                href="#kelas"
+                href="#Tutorial"
                 className="p-1 gap-1 rounded px-4 py-1 
   bg-teal-600 hover:bg-teal-900 
   dark:bg-teal-900 dark:hover:bg-teal-600
@@ -107,7 +107,7 @@ export default function Header({
                 <span className="font-semibold">Tutorial</span>
               </a>
               <a
-                href="#kelas"
+                href="#Kelas"
                 className="p-1 gap-1 rounded px-4 py-1 
                 bg-teal-600 hover:bg-teal-900 
                 dark:bg-teal-900 dark:hover:bg-teal-600
@@ -119,7 +119,7 @@ export default function Header({
                 <span className="font-semibold">Buku</span>
               </a>
               <a
-                href="#kelas"
+                href="#Discord"
                 className="p-1 gap-1 rounded px-4 py-1 
   bg-teal-600 hover:bg-teal-900 
   dark:bg-teal-900 dark:hover:bg-teal-600
@@ -134,7 +134,7 @@ export default function Header({
 
             <div className="navbar flex gap-1">
               <a
-                href=""
+                href="#Discord"
                 className="p-1 gap-1 rounded px-4 py-1 
   bg-teal-600 hover:bg-teal-900 
   dark:bg-teal-900 dark:hover:bg-teal-600
@@ -207,7 +207,7 @@ export default function Header({
                   <a
                     key={section}
                     href={`#${section}`}
-                    className={`nav-link text-gray-700 hover:text-primary transition-colors duration-300 ${
+                    className={`nav-link text-gray-700 dark:text-white hover:text-primary transition-colors duration-300 ${
                       activeSection === section ? "active" : ""
                     }`}
                   >

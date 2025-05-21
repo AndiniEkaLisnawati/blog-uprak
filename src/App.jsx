@@ -30,19 +30,16 @@ export default function LandingPageBlog() {
         isMobileMenuOpen={isMobileMenuOpen}
         setIsMobileMenuOpen={setIsMobileMenuOpen} />
         
-        <Hero />
+        <Hero id="Home" />
 
-        <Article></Article>
-        <div className="">
-          <h2 className=""></h2>
-        </div>
-        <section className="p-8 grid lg:pt-30 grid-cols-1 lg:grid-cols-3 gap-6 dark:bg-slate-900">
+        <Article id="Tutorial"></Article>
+        <section id="Kelas" className="p-8 grid lg:pt-30 grid-cols-1 lg:grid-cols-3 gap-6 dark:bg-slate-900">
           {posts.map((post) => (
           <Postcard key={post.id} title={post.title} body={post.body} />
           ))}
         </section>
 
-        <Footer />
+        <Footer id="Discord" />
       </ClickSpark>
     </div>
   );

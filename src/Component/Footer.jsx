@@ -3,7 +3,7 @@ import LogoFooter from "../assets/img/petanikode-footerlogo.png";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-slate-800 h-full pb-10 text-white pt-16">
+    <footer id="Discord" className="bg-slate-800 h-full pb-10 text-white pt-16">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start gap-3">
           <div className="mb-6 md:mb-0">
