@@ -68,7 +68,7 @@ export default function Header({
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-97 flex pl-2 text-white dark:text-w">
+          <nav className="hidden md:flex space-x-90 flex pl-2 text-white dark:text-w">
             <div className="navbar flex space-x-1 text-white item">
               <a
                 href="#home"
@@ -132,7 +132,7 @@ export default function Header({
               </a>
             </div>
 
-            <div className="navbar flex gap-4 ml-2">
+            <div className="navbar flex gap-1">
               <a
                 href=""
                 className="p-1 gap-1 rounded px-4 py-1 
@@ -174,8 +174,8 @@ export default function Header({
             onClick={() => setIsDark(!isDark)}
             aria-label="Toggle Dark Mode"
             className="md:hidden p-1 rounded px-4 py-1 pl-50
-            bg-teal-600 hover:bg-teal-900 
-            dark:bg-teal-900 dark:hover:bg-teal-600 font-semibold text-white"
+            bg-teal-600
+            dark:bg-teal-900 font-semibold text-white"
           >
             {isDark ? (
               <MdOutlineLightMode size={20} />

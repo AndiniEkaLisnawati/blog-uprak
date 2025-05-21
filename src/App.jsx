@@ -18,7 +18,7 @@ export default function LandingPageBlog() {
   }, []);
 
   return (
-    <div className="font-sans bg-[url('')]">
+    <div className="font-sans bg-white dark:bg-slate-900">
       <ClickSpark
         sparkColor="pink"
         sparkSize={10}
@@ -32,8 +32,10 @@ export default function LandingPageBlog() {
         
         <Hero />
 
-        {/* <Article></Article> */}
-
+        <Article></Article>
+        <div className="">
+          <h2 className=""></h2>
+        </div>
         <section className="p-8 grid lg:pt-30 grid-cols-1 lg:grid-cols-3 gap-6 dark:bg-slate-900">
           {posts.map((post) => (
           <Postcard key={post.id} title={post.title} body={post.body} />
